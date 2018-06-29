@@ -18,6 +18,7 @@
       "version": "1.0.0"
     },
     "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
     "long": {
       "integrity": "sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==",
       "resolved": "https://registry.npmjs.org/long/-/long-4.0.0.tgz",
