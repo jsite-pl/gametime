@@ -17,6 +17,11 @@ exports.run = (client, message, args, level) => {
   // send message with initial reacts
   var notifChannel = client.channels.get(config.notifChannel);
   notifChannel.send('@here'); // notif @here (everyone a this channel)
+  if(config.voiceNotif){
+    notifChannel.send('Do you wanna play a game?', {
+      tts: true
+    }); // Voice notify, about new game (for people, who playing in another game, after this method, they know, about team play)
+  }
   notifChannel.send({embed})
     .then((msg) => 
       msg.react('👍')

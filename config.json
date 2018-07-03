@@ -1,4 +1,5 @@
 {
-	"token":"BOT TOKEN"
-	"notifChannel":"INFO CHANNEL ID"
+    "token": "BOT TOKEN", // bot token
+    "notifChannel": "CHANNEL ID", // ID Channel, where bot will send that notification
+    "voiceNotif": true, //Voice notify, about new game
 }
