@@ -16,6 +16,7 @@ exports.run = (client, message, args, level) => {
 
   // send message with initial reacts
   var notifChannel = client.channels.get(config.notifChannel);
+  notifChannel.send('@here'); // notif @here (everyone a this channel)
   notifChannel.send({embed})
     .then((msg) => 
       msg.react('👍')
